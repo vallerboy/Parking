@@ -19,6 +19,7 @@ public class ParkingGenerator {
             parkingPlace.setFree(random.nextBoolean());
             parkingPlace.setId(i);
             parkingPlace.setPlaceType(getRandomPlaceType());
+            parkingPlaceList.add(parkingPlace);
         }
 
         return parkingPlaceList;

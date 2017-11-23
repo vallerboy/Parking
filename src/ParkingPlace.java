@@ -61,4 +61,13 @@ public class ParkingPlace {
         result = 31 * result + (placeType != null ? placeType.hashCode() : 0);
         return result;
     }
+
+    @Override
+    public String toString() {
+        return "ParkingPlace{" +
+                "isFree=" + isFree +
+                ", id=" + id +
+                ", placeType=" + placeType +
+                '}';
+    }
 }
